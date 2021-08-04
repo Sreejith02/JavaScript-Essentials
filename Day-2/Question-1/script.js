@@ -1,7 +1,14 @@
-let arr=["Mohanlal","Tovino Thomas","Mammootty","Asif Ali","Dulkhar"]
+console.log(`Elements which are divisible by 5 from 1to 50
+`)
 
-console.log(arr);
-
-let reversearr=arr.reverse();
-
-console.log(reversearr);
+let a=1
+while (a<=50)
+{
+  
+ if(a%5==0){
+ console.log(a);
+ }
+ 
+ a++;
+ 
+}
